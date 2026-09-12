@@ -1,0 +1,43 @@
+name: talkway
+description: "Talkway — a 1-to-1 audio/video calling app built with Flutter, Firebase, and Agora."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_database: ^11.1.4
+
+  # Calling (Agora RTC)
+  agora_rtc_engine: ^6.3.2
+  agora_token_generator: ^1.0.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^6.1.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

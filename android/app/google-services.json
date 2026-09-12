@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660030312034",
+    "project_id": "talkway-app",
+    "storage_bucket": "talkway-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660030312034:android:a543876117038bf50a8b3b",
+        "android_client_info": {
+          "package_name": "com.example.talkway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTCDyVt0pgFJvDrGHNr0pnrpSr7wCpnUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
